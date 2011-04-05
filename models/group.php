@@ -15,7 +15,7 @@
  * @license       http://www.opensource.org/licenses/mit-license.php The MIT License
  */
 
-class Group extends AppModel {
+class Group extends CakeforumAppModel {
 
 		public $hasMany = array('User');
 	

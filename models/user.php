@@ -15,7 +15,7 @@
  * @license       http://www.opensource.org/licenses/mit-license.php The MIT License
  */
 
-class User extends AppModel {
+class User extends CakeforumAppModel {
 	
 	public $validate = array(
 

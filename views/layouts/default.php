@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>CakeForum » <?php echo $title_for_layout?></title>
-<?php echo $html->css('forum');?>
+<?php echo $html->css('/cakeforum/css/forum');?>
 </head>
 <body>
 <div class="container">

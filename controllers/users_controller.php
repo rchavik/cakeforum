@@ -15,9 +15,9 @@
  * @license       http://www.opensource.org/licenses/mit-license.php The MIT License
  */
 
-class UsersController extends AppController {
+class UsersController extends CakeforumAppController {
 	
-	public $uses = array('User', 'Group');
+	public $uses = array('Cakeforum.User', 'Cakeforum.Group');
 	
 	public $components = array('CfEmail');
 	
@@ -74,7 +74,7 @@ class UsersController extends AppController {
 				// save user data
 				
 				if ($this->User->save($this->data)) {				
-					$this->redirect('/registered');				
+					$this->redirect(array('action' => 'registered'));
 				} else {
 					$this->data['User']['form_password'] = '';
 					$this->data['User']['confirm_password'] = '';

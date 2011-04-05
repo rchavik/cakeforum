@@ -15,7 +15,7 @@
  * @license       http://www.opensource.org/licenses/mit-license.php The MIT License
  */
 
-class ForumPost extends AppModel {
+class ForumPost extends CakeforumAppModel {
 
 	public $name = 'ForumPost';
 	
@@ -28,15 +28,18 @@ class ForumPost extends AppModel {
 	public $belongsTo = array(
 			
 		'ForumTopic' => array(
+			'className' => 'Cakeforum.ForumTopic',
 			'foreignKey' => 'forum_topic_id'
 		),
 				
 		'User' => array(
+			'className' => 'Cakeforum.User',
 			'foreignKey' => 'user_id',
 			'fields' => 'id, username'
 		),
 		
 		'ForumCategory' => array(
+			'className' => 'Cakeforum.ForumCategory',
 			'foreignKey' => 'forum_category_id'
 		)	
 			

@@ -15,11 +15,11 @@
  * @license       http://www.opensource.org/licenses/mit-license.php The MIT License
  */
 
-class AppController extends Controller {
+class CakeforumAppController extends AppController {
 	
 	public $components = array('Auth', /*'DebugKit.Toolbar'*/);
 	
-	public $helpers = array('Html', 'Form', 'User');
+	public $helpers = array('Html', 'Form', 'Cakeforum.User');
 	
 	public $ext = '.php'; 
 	

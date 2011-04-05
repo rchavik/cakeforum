@@ -15,9 +15,9 @@
  * @license       http://www.opensource.org/licenses/mit-license.php The MIT License
  */
 
-class ForumController extends AppController {
+class ForumController extends CakeforumAppController {
 	
-	public $uses = array('ForumCategory', 'ForumTopic', 'ForumPost');
+	public $uses = array('Cakeforum.ForumCategory', 'Cakeforum.ForumTopic', 'Cakeforum.ForumPost');
 	
 	public $helpers = array('Time');
 	
