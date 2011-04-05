@@ -1,0 +1,316 @@
+body {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 11px;
+	color: #666;
+	margin: 0px;
+	padding: 0px;
+	background-color: #F0F0F0;
+}
+a {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 11px;
+	color: #3B5996;
+}
+a:hover {
+	text-decoration: none;
+}
+
+
+.container {
+	width: 780px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #FFF;
+	padding-top: 10px;
+	padding-right: 30px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+}
+.header {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCC;
+}
+.nav {
+	padding-top: 4px;
+	padding-bottom: 4px;
+	text-align: right;
+	padding-right: 5px;
+	background-color: #F9F9F9;
+	padding-left: 5px;
+}
+.nav span {
+	float: left;
+	font-weight: bold;
+}
+.subnav {
+	padding-top: 5px;
+	padding-bottom: 4px;
+	padding-right: 1px;
+	padding-left: 1px;
+}
+.subnav a {
+	text-decoration: none;
+	color: #999;
+}
+.subnav a:hover {
+	text-decoration: underline;
+}
+
+
+
+
+
+.forum-path {
+	padding-top: 8px;
+	font-weight: bold;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCC;
+	padding-bottom: 8px;
+}
+.forum-path a {
+	color: #666;
+}
+
+.forum-index {
+
+
+}
+.forum-index table {
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-left-style: solid;
+	border-top-color: #23567C;
+	border-left-color: #23567C;
+	width: 100%;
+}
+
+.forum-index table th {
+	background-color: #3B5996;
+	text-align: center;
+	color: #FFF;
+	padding: 6px;
+}
+
+.forum-index table tr td {
+	padding: 4px;
+	text-align: center;
+	vertical-align: top;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-right-color: #3B5996;
+	border-bottom-color: #3B5996;
+}
+.forum-index table tr.altrow td {
+	background-color: #F8F8F8;
+}
+.forum-index table td.leftalign {
+	text-align: left;
+	padding-left: 5px;
+}
+.forum-index-title {
+	font-size: 12px;
+}
+.forum-index-title a {
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+}
+.forum-index-title a:hover {
+	text-decoration: underline;
+}
+
+
+.forum-index-desc {
+	margin-top: 2px;
+}
+
+.forum-topic-title {
+	font-size: 14px;
+	font-weight: bold;
+	color: #3B5996;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+.forum-topic-date {
+	font-size: 10px;
+	margin-top: 8px;
+	text-align: right;
+	margin-right: 4px;
+}
+.forum-topic-date span {
+	float: left;
+	color: #999;
+}
+
+.forum-topic-cp {
+	text-align: right;
+	margin-bottom: 2px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCC;
+	padding-bottom: 3px;
+}
+
+
+
+
+.paging {
+	text-align: left;
+	padding-top: 5px;
+}
+.paging a {
+	text-decoration: none;
+	color: #3B5996;
+	padding: 2px;
+	font-weight: bold;
+}
+.paging a:hover {
+	text-decoration: none;
+	background-color: #F8F8F8;
+}
+.paging .current {
+	color: #FF6701;
+	font-weight: bold;
+	padding: 2px;
+}
+.paging .disabled {
+	padding-top: 3px;
+	padding-right: 5px;
+	padding-bottom: 3px;
+	padding-left: 5px;
+	border: 1px solid #FF6701;
+	color: #FF6701;
+	display: none;
+}.button-newtopic {
+	text-align: right;
+}
+.button-newtopic a {
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+	background-color: #3B5996;
+	color: #FFF;
+	padding-top: 4px;
+	padding-right: 15px;
+	padding-bottom: 4px;
+	padding-left: 15px;
+	display: inline;
+	text-align: center;
+	margin-right: 2px;
+	margin-left: 2px;
+	width: 100px;
+}
+.button-newtopic a:hover {
+	background-color: #2C4270;
+	color: #FFF;
+}
+
+.field {
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+}
+.field label {
+	display: block;
+	width: 100px;
+	float: left;
+	padding-top: 4px;
+	padding-bottom: 3px;
+	text-align: left;
+	color: #3B5996;
+}
+
+.field input {
+	width: 400px;
+	font-size: 12px;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-weight: normal;
+	color: #666;
+	padding: 3px;
+	border: 1px solid #3B5996;
+}
+.field textarea {
+	width: 400px;
+	font-size: 12px;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-weight: normal;
+	color: #666;
+	padding: 3px;
+	border: 1px solid #3B5996;
+}
+.field select {
+	border: 1px solid #417EA5;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	color: #154264;
+	padding: 1px;
+}
+.field .error-message{
+	color: #C00;
+	margin-left: 100px;
+	margin-top: 2px;
+	clear: both;
+	font-weight: bold;
+}
+.button {
+	padding-top: 10px;
+	padding-bottom: 5px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #CCC;
+	text-align: right;
+}
+.button input {
+	font-weight: bold;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	color: #FFF;
+	width: 157px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	padding-top: 5px;
+	padding-bottom: 7px;
+	background-color: #3B5996;
+}
+.forum-login {
+	padding-right: 200px;
+	padding-left: 200px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.forum-login input {
+	width: 200px;
+}
+.forum-login .button {
+	border-top-width: 0px;
+}
+.forum-login .button input {
+	padding: 4px;
+	width: 100px;
+	margin-right: 51px;
+}
+
+.footer {
+	text-align: right;
+	margin-top: 15px;
+	color: #999;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #CCC;
+	padding-top: 2px;
+}
+#flashMessage {
+	color: #C00;
+	text-align: center;
+	font-weight: bold;
+	padding: 5px;
+	font-size: 12px;
+}

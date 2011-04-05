@@ -1,0 +1,9 @@
+
+INSTALLATION INSTRUCTIONS
+
+1. Download CakePHP v. 1.2.x (www.cakephp.org)
+2. Extract CakePHP into your webserver then replace /app folder with /app folder from CakeForum
+3. Import the cakeforum.sql from the /app/config/sql folder into your database
+4. Edit database.php and bootstrap.php in 'app/config'
+5. Edit table 'forum_categories' in database and add forum categories.
+6. Run CakeForum
